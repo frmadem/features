@@ -1,0 +1,20 @@
+{
+  "name": "@firestarter/dummy",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Enable tech docs for your project.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node --experimental-vm-modules ../../node_modules/jest/bin/jest.js --passWithNoTests",
+    "generate": "render"
+  },
+  "repository": "git://github.com/frmadem/features.git",
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/frmadem/features/issues"
+  },
+  "dependencies": {},
+  "homepage": "https://github.com/frmadem/features#readme"
+}

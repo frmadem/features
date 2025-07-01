@@ -1,0 +1,13 @@
+feature_name: dummy
+args:
+  ORG:
+    $ref: [spec, org]
+  REPO_NAME:
+    $ref: [metadata, annotations, firestartr.dev/external-name]
+
+files:
+  - src: dummy.md
+    dest: dummy.md
+    user_managed: false
+
+patches: {}
