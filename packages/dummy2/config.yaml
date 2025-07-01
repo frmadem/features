@@ -7,7 +7,7 @@ args:
 
 files:
   - src: dummy.md
-    dest: dummy.md
+    dest: dummy2.md
     user_managed: false
 
 patches: {}
